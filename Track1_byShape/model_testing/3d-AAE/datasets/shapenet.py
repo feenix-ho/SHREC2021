@@ -36,7 +36,8 @@ synth_id_to_number = {k: i for i, k in enumerate(synth_id_to_category.keys())}
 
 
 class ShapeNetDataset(Dataset):
-    def __init__(self, root_dir='/home/datasets/shapenet', classes=[],
+    # def __init__(self, root_dir='/home/datasets/shapenet', classes=[],
+    def __init__(self, root_dir='/home/htnphuong/git_environment/SHREC2021/Track1_byShape/model_testing/3d-AAE/shapenet', classes=[],
                  transform=None, split='train'):
         """
         Args:

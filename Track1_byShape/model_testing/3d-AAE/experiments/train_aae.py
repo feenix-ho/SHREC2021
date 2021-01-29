@@ -20,6 +20,7 @@ import sys
 sys.path.insert(0, "/home/htnphuong/git_environment/SHREC2021/Track1_byShape/model_testing/3d-AAE/")
 from utils.pcutil import plot_3d_point_cloud
 from utils.util import find_latest_epoch, prepare_results_dir, cuda_setup, setup_logging
+import models
 
 cudnn.benchmark = True
 
@@ -81,7 +82,9 @@ def main(config):
     #
     # Models
     #
-    arch = import_module("models.{config['arch']}")
+    sys.path.insert(0, "/home/htnphuong/git_environment/SHREC2021/Track1_byShape/model_testing/3d-AAE/")
+    arch = import_module("models.aae")
+    # arch = import_module("models.{config['arch']}")
     G = arch.Generator(config).to(device)
     E = arch.Encoder(config).to(device)
     D = arch.Discriminator(config).to(device)

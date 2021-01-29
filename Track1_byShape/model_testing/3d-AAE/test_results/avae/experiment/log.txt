@@ -1,0 +1,28 @@
+01-26 10:17:38 Device variable: {device}
+01-26 10:17:38 Current CUDA device: {torch.cuda.current_device()}
+01-28 14:10:23 Device variable: {device}
+01-28 14:10:23 Current CUDA device: {torch.cuda.current_device()}
+01-29 08:40:09 Device variable: {device}
+01-29 08:40:09 Current CUDA device: {torch.cuda.current_device()}
+01-29 08:41:59 Selected all classes. Loaded 48809 samples.
+01-29 08:49:57 Device variable: {device}
+01-29 08:49:57 Current CUDA device: {torch.cuda.current_device()}
+01-29 08:49:59 Selected all classes. Loaded 48809 samples.
+01-29 09:11:52 Device variable: {device}
+01-29 09:11:52 Current CUDA device: {torch.cuda.current_device()}
+01-29 09:11:53 Selected all classes. Loaded 48809 samples.
+01-29 09:13:54 Device variable: {device}
+01-29 09:13:54 Current CUDA device: {torch.cuda.current_device()}
+01-29 09:13:56 Selected all classes. Loaded 48809 samples.
+01-29 09:15:06 Device variable: {device}
+01-29 09:15:06 Current CUDA device: {torch.cuda.current_device()}
+01-29 09:15:07 Selected all classes. Loaded 48809 samples.
+01-29 09:16:11 Device variable: {device}
+01-29 09:16:11 Current CUDA device: {torch.cuda.current_device()}
+01-29 09:16:12 Selected all classes. Loaded 48809 samples.
+01-29 09:17:56 Device variable: {device}
+01-29 09:17:56 Current CUDA device: {torch.cuda.current_device()}
+01-29 09:17:58 Selected all classes. Loaded 48809 samples.
+01-29 09:30:21 Device variable: {device}
+01-29 09:30:21 Current CUDA device: {torch.cuda.current_device()}
+01-29 09:30:23 Selected all classes. Loaded 48809 samples.
